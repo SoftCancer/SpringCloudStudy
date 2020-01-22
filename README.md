@@ -1,4 +1,4 @@
-# SpringCloudStudy
+# SpringCloudParent 
 学习SpringCloud
 
 ## 该项目总共包含 10 个模块，各模块对应功能如下：
