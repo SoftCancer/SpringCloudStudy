@@ -5,7 +5,7 @@ server:
 eureka:
   instance:
     hostname: 127.0.0.1
-    # 服务提供者配置
+    # 服务注册中心配置
   client:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
