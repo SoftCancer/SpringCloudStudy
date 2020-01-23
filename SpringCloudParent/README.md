@@ -6,6 +6,8 @@
 ### 模块 cloud_eureka_01 ： 实现SpringCloud 整合 Eureka 注册中心。
 
 
+### 模块 cloud_eureka_client_01 ： 实现SpringCloud 整合 Eureka 服务的提供者。
+
 
 
 该项目所对应的 简书地址如下：https://www.jianshu.com/c/4683518df962

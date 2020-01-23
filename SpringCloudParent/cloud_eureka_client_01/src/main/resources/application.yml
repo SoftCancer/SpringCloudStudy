@@ -1,0 +1,24 @@
+server:
+  port: 9091
+
+### eureka 基本配置
+
+# 服务提供者的应用名称 ，集群名称需要一致
+spring:
+  application:
+    name: server_provide_01
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+    # 服务提供者配置
+  client:
+    service-url:
+    # 指定注册中心 eureka 的地址
+      defaultZone: http://${eureka.instance.hostname}:9090/eureka/
+
+   # 不进行注册（当服务注册中心是单点而非高可用时的配置方式）
+    #register-with-eureka: false
+    # 不获取注册信息（当服务注册中心是单点而非高可用时的配置方式）
+    # fetch-registry: false
+
