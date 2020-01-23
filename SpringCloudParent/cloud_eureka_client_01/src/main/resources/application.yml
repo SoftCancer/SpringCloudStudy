@@ -6,7 +6,7 @@ server:
 # 服务提供者的应用名称 ，集群名称需要一致
 spring:
   application:
-    name: server_provide_01
+    name: server-clien
 
 eureka:
   instance:
