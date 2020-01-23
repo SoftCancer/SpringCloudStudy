@@ -3,10 +3,10 @@
 
 ## 该项目总共包含 10 个模块，各模块对应功能如下：
 
-### 模块 cloud_eureka_01 ： 实现SpringCloud 整合 Eureka 注册中心。
+### 模块一： cloud_eureka_01 ： 实现SpringCloud 整合 Eureka 注册中心。
 
 
-### 模块 cloud_eureka_client_01 ： 实现SpringCloud 整合 Eureka 服务的提供者。
+### 模块二： cloud_eureka_client_01 ： 实现SpringCloud 整合 Eureka 服务的提供者。
 
 
 
