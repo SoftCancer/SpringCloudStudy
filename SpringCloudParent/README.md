@@ -9,5 +9,8 @@
 ### 模块二： cloud_eureka_client_01 ： 实现SpringCloud 整合 Eureka 服务的提供者。
 
 
+### 模块三： cloud_eureka_feign_01 ： 实现SpringCloud 整合 Eureka 服务的消费者。
+
+
 
 该项目所对应的 简书地址如下：https://www.jianshu.com/c/4683518df962

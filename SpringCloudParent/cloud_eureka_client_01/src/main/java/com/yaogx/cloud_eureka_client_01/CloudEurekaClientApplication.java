@@ -3,7 +3,6 @@ package com.yaogx.cloud_eureka_client_01;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @Description: 服务的提供者
