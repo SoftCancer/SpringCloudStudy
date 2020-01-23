@@ -21,7 +21,9 @@
     <!--引入子模块-->
     <modules>
         <module>cloud_eureka_01</module>
+        <module>cloud_eureka_client_01</module>
     </modules>
+
 
     <!--版本管理-->
     <properties>
