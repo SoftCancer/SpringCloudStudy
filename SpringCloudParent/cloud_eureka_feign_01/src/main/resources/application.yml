@@ -1,16 +1,17 @@
 
 server:
-  # ·şÎñ¶Ë¿ÚºÅ
+  # æœåŠ¡ç«¯å£å·
   port: 9092
 
 spring:
   application:
-    # ·şÎñÃû£¬¼´serviceId
+    # æœåŠ¡åï¼Œå³serviceId
     name: service-feign
 eureka:
   instance:
     hostname: 127.0.0.1
+
   client:
     serviceUrl:
-      # °²È«ÈÏÖ¤µÄ·şÎñ×¢²áÖĞĞÄµØÖ·
+      # å®‰å…¨è®¤è¯çš„æœåŠ¡æ³¨å†Œä¸­å¿ƒåœ°å€
       defaultZone: http://${eureka.instance.hostname}:9090/eureka

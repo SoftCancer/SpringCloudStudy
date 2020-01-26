@@ -1,0 +1,32 @@
+server:
+  port: 9101
+
+### eureka 基本配置
+eureka:
+  instance:
+    hostname: 127.0.0.1
+    # 服务注册中心配置
+  client:
+    service-url:
+    # 指定服务的注册中心地址
+      defaultZone: http://${eureka.instance.hostname}:9090/eureka/
+
+   # 不进行注册（当服务注册中心是单点而非高可用时的配置方式）
+#    register-with-eureka: false
+    # 不获取注册信息（当服务注册中心是单点而非高可用时的配置方式）
+#    fetch-registry: false
+
+spring:
+  application:
+    name: service-zuul
+  main:
+    allow-bean-definition-overriding: true
+
+zuul:
+  routes:
+    api-a:
+      path: /ribbon/**
+      serviceId: service-ribbon
+    api-b:
+      path: /feign/**
+      serviceId: service-feign
