@@ -1,4 +1,4 @@
-package com.yaogx.cloud_eureka_client_01.controller;
+package com.yaogx.cloud_eureka_client_02.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,7 +31,7 @@ public class UserController {
 
     @GetMapping("/user/hello")
     public String hello(){
-        return "服务提供者：cloud_eureka_client_01 ,Hello!";
+        return "服务提供者：cloud_eureka_client_02 ,Hello!  "+ port;
     }
 
 }
