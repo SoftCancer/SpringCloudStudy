@@ -20,6 +20,12 @@
 ### 模块六： cloud_Ribbon_01 ： 实现SpringCloud 整合 Ribbon 实现负载均衡。
     需要依次启动：模块一，模块二，模块三，模块六。
 
-### 模块七： cloud_Ribbon_01 ： 实现SpringCloud 整合 Ribbon 实现负载均衡。
+### 模块七： cloud_zuul_01 ： 实现SpringCloud 整合 Zuul 实现路由和过滤功能。
+    测试路由功能 需要依次启动：模块一，模块二，模块四，模块六,模块七。
+    
+    
+### 模块八： cloud_10_config_server ： 实现SpringCloud 整合分布式配置中心 config-server。
 
+    
+    
 该项目所对应的 简书地址如下：https://www.jianshu.com/c/4683518df962

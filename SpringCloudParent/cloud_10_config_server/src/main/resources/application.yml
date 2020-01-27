@@ -1,0 +1,19 @@
+server:
+  port: 9102
+
+spring:
+  application:
+    name: service-config
+  main:
+    allow-bean-definition-overriding: true
+# 用于配置 github 相关内容
+  cloud:
+    config:
+      server:
+        git:
+        # 自己在github 上创建一个文件
+          uri: https://github.com/SoftCancer/SpringcloudConfig
+          search-paths: server
+          username:
+          password:
+      label: master

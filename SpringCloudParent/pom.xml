@@ -27,6 +27,7 @@
         <module>cloud_eureka_hystrix_02</module>
         <module>cloud_Ribbon_01</module>
         <module>cloud_zuul_01</module>
+        <module>cloud_10_config_server</module>
     </modules>
 
 
