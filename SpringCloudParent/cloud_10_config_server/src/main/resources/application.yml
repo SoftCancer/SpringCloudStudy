@@ -22,7 +22,7 @@ spring:
       label: master
 
 ## spring cloud eureka
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://127.0.0.1:9090/eureka/
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://127.0.0.1:9090/eureka/
