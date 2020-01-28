@@ -1,14 +1,16 @@
-package com.yaogx.cloud_10_config_server;
+package com.yaogx.cloud_12_config_server_high;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
+@EnableEurekaClient
 @EnableConfigServer
-public class CloudConfigApplication {
+public class CloudConfigServerHighApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CloudConfigApplication.class, args);
+        SpringApplication.run(CloudConfigServerHighApplication.class, args);
     }
 }
