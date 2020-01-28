@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yaogx</groupId>
-    <artifactId>cloud_10_config_server</artifactId>
+    <artifactId>cloud_13_config_client_high</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cloud_10_config_server</name>
+    <name>cloud_13_config_client_high</name>
     <description>Demo project for Spring Boot</description>
 
     <!--引入父模块依赖-->
@@ -28,7 +28,11 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
     </dependencies>
 

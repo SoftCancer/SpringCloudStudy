@@ -30,6 +30,7 @@
         <module>cloud_10_config_server</module>
         <module>cloud_11_config_client</module>
         <module>cloud_12_config_server_high</module>
+        <module>cloud_13_config_client_high</module>
     </modules>
 
 
