@@ -28,6 +28,8 @@
 
 
 ### 模块九： cloud_11_config_client ： 实现SpringCloud 整合分布式配置中心 config_client。
+    依次启动： cloud_eureka_01 ，cloud_10_config_server，cloud_11_config_client 子模块
+
 
     
     
