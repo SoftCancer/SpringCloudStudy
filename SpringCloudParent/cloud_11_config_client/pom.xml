@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yaogx</groupId>
-    <artifactId>cloud_10_config_server</artifactId>
+    <artifactId>cloud_11_config_client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cloud_10_config_server</name>
+    <name>cloud_11_config_client</name>
     <description>Demo project for Spring Boot</description>
 
     <!--引入父模块依赖-->
@@ -26,14 +26,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- SpringBoot整合eureka客户端 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        <!-- actuator监控中心 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 

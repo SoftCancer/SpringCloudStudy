@@ -26,6 +26,9 @@
     
 ### 模块八： cloud_10_config_server ： 实现SpringCloud 整合分布式配置中心 config-server。
 
+
+### 模块九： cloud_11_config_client ： 实现SpringCloud 整合分布式配置中心 config_client。
+
     
     
 该项目所对应的 简书地址如下：https://www.jianshu.com/c/4683518df962

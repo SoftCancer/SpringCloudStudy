@@ -28,6 +28,7 @@
         <module>cloud_Ribbon_01</module>
         <module>cloud_zuul_01</module>
         <module>cloud_10_config_server</module>
+        <module>cloud_11_config_client</module>
     </modules>
 
 
