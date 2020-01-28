@@ -28,9 +28,16 @@
 
 
 ### 模块九： cloud_11_config_client ： 实现SpringCloud 整合分布式配置中心 config_client。
-    依次启动： cloud_eureka_01 ，cloud_10_config_server，cloud_11_config_client 子模块
+    依次启动： cloud_10_config_server，cloud_11_config_client 子模块
+
+### 模块八： cloud_12_config_server_high ： 实现SpringCloud 整合高可用分布式配置中心 config-server。
 
 
+### 模块九： cloud_13_config_client_high ： 实现SpringCloud 整合高可用分布式配置中心 config_client。
+    依次启动： cloud_eureka_01 ，cloud_12_config_server_high，cloud_13_config_client_high 子模块
+ 
+ 
+ 
     
     
 该项目所对应的 简书地址如下：https://www.jianshu.com/c/4683518df962
