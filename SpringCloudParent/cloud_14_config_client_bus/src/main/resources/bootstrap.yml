@@ -1,0 +1,48 @@
+server:
+  port: 9106
+
+## spring cloud eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9090/eureka/
+
+# spring config
+spring:
+  application:
+    ####注册中心应用名称
+    name:  config-client
+
+
+  cloud:
+      config:
+        #  github 上的 配置文件前缀名称
+        name: config-client
+        label: master
+        profile: dev
+        ####读取config-server注册地址
+        discovery:
+          #指定server端的name,也就是server
+          service-id: config-server
+          #开启Config服务发现支持
+          enabled: true
+
+# 添加 Bus 配置
+      bus:
+        enabled: true
+        trace:
+          enabled: true
+# 添加 RabbitMQ
+  rabbitmq:
+    host: 192.168.1.107
+    port: 5672
+    username: guest
+    password: 123456
+management:
+  endpoint:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
+

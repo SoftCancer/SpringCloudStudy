@@ -37,6 +37,11 @@
     依次启动： cloud_eureka_01 ，cloud_12_config_server_high，cloud_13_config_client_high 子模块
  
  
+### 模块九： cloud_14_config_client_bus ： 实现SpringCloud 整合高消息总线(Spring Cloud Bus)。
+    依次启动： cloud_eureka_01 ，cloud_12_config_server_high，cloud_14_config_client_bus 子模块.
+    需要 RabbitMQ 支持，访问：http://127.0.0.1:9106/yaosy
+ 
+ 
  
     
     
