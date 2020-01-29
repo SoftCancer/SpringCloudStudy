@@ -37,12 +37,21 @@
     依次启动： cloud_eureka_01 ，cloud_12_config_server_high，cloud_13_config_client_high 子模块
  
  
-### 模块九： cloud_14_config_client_bus ： 实现SpringCloud 整合高消息总线(Spring Cloud Bus)。
+### 模块十： cloud_14_config_client_bus ： 实现SpringCloud 整合高消息总线(Spring Cloud Bus)。
     依次启动： cloud_eureka_01 ，cloud_12_config_server_high，cloud_14_config_client_bus 子模块.
     需要 RabbitMQ 支持，访问：http://127.0.0.1:9106/yaosy
  
- 
- 
+### 模块十一： cloud_15_zipkin_server ： 实现SpringCloud 整合服务链路追踪 Sleuth+Zipkin 。
+    依次启动： cloud_eureka_01 ，cloud_15_zipkin_server 子模块. 
+    访问：http://127.0.0.1:9107/zipkin/ 
+    
+### 模块十二： cloud_16_sleuth_client ： 实现SpringCloud 整合服务链路追踪 Sleuth+Zipkin 测试。
+            模块：cloud_16_sleuth_client 和 cloud_17_sleuth_client 有关联。
+### 模块十三： cloud_17_sleuth_client ： 实现SpringCloud 整合服务链路追踪 Sleuth+Zipkin 测试。
+    依次启动： cloud_eureka_01 ，cloud_15_zipkin_server ,cloud_16_sleuth_client ,cloud_17_sleuth_client 四个子模块. 
+    四个模块相互关联。
+    
+    
     
     
 该项目所对应的 简书地址如下：https://www.jianshu.com/c/4683518df962
