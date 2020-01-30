@@ -51,7 +51,7 @@
     依次启动： cloud_eureka_01 ，cloud_15_zipkin_server ,cloud_16_sleuth_client ,cloud_17_sleuth_client 四个子模块. 
     四个模块相互关联。
     
-    
-    
+### 模块十四： cloud_18_hystrix_turbine ： 实现SpringCloud 熔断器聚合监控Hystrix Turbine。
+     依次启动： cloud_eureka_01，cloud_eureka_hystrix_01，cloud_eureka_hystrix_02 ，cloud_18_hystrix_turbine 模块相互关联。
     
 该项目所对应的 简书地址如下：https://www.jianshu.com/c/4683518df962
