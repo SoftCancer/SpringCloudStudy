@@ -4,8 +4,8 @@ server:
 
 spring:
   application:
-    # 服务名，即serviceId
-    name: service-feign
+    # 服务名:hystrix
+    name: service-hystrix
 eureka:
   instance:
     hostname: 127.0.0.1
