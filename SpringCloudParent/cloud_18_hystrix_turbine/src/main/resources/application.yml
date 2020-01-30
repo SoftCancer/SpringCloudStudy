@@ -20,7 +20,7 @@ management:
 
 turbine:
   # 添加 Hystrix Dashboard 服务的 配置文件中的应用名
-  app-config: service-hystrix
+  app-config: service-hystrix ,service-hystrix_01
   aggregator:
     clusterConfig: default
   clusterNameExpression: new String("default")

@@ -24,6 +24,7 @@
         <module>cloud_eureka_client_01</module>
         <module>cloud_eureka_client_02</module>
         <module>cloud_eureka_feign_01</module>
+        <module>cloud_eureka_hystrix_01</module>
         <module>cloud_eureka_hystrix_02</module>
         <module>cloud_Ribbon_01</module>
         <module>cloud_zuul_01</module>
@@ -35,7 +36,7 @@
         <module>cloud_15_zipkin_server</module>
         <module>cloud_16_sleuth_client</module>
         <module>cloud_17_sleuth_client</module>
-
+        <module>cloud_18_hystrix_turbine</module>
     </modules>
 
 
