@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  */
 //通过@FeignClient标识当前接口是一个Feign客户端，value = "server_clien"表示其针对的是名为cloud_eureka_client_01的服务。
 // server_clien 则是我们cloud_eureka_client_01子模块的spring.application.name，这个name已经在eureka注册过
-@FeignClient(value = "server-clien" , fallback = UserServiceImp.class)
+@FeignClient(value = "server-client" , fallback = UserServiceImp.class)
 public interface IUserService {
 
     /**

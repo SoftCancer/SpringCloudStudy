@@ -28,6 +28,7 @@
         <module>cloud_eureka_hystrix_02</module>
         <module>cloud_Ribbon_01</module>
         <module>cloud_zuul_01</module>
+        <module>cloud_00_web</module>
         <module>cloud_10_config_server</module>
         <module>cloud_11_config_client</module>
         <module>cloud_12_config_server_high</module>
@@ -37,6 +38,7 @@
         <module>cloud_16_sleuth_client</module>
         <module>cloud_17_sleuth_client</module>
         <module>cloud_18_hystrix_turbine</module>
+        <module>cloud_19_gateway_one</module>
     </modules>
 
 

@@ -1,0 +1,18 @@
+server:
+  port: 9121
+
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: he
+          uri: http://127.0.0.1:9111/
+          predicates:
+            # 匹配路径转发
+            - Path=/hello
+
+
+
+

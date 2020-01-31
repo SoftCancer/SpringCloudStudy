@@ -16,8 +16,8 @@ public class HelloService {
     @Autowired
     RestTemplate restTemplate;
 
-    // ribbon中它会根据服务名（SERVER-CLIEN）来选择具体的服务实例
+    // ribbon中它会根据服务名（SERVER-CLIENT）来选择具体的服务实例
     public String hiService(){
-        return restTemplate.getForObject("http://SERVER-CLIEN/user/hello",String.class);
+        return restTemplate.getForObject("http://SERVER-CLIENT/user/hello",String.class);
     }
 }
